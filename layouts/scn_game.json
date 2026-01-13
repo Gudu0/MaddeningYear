@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.4,
     "snap": true,
-    "zoomFactor": 0.2006974131454993,
+    "zoomFactor": 0.11420623007494694,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -140,8 +140,8 @@
       "name": "obj_notes",
       "persistentUuid": "c656d7a1-eaac-46df-92fb-9963c6ccdf93",
       "width": 0,
-      "x": 480,
-      "y": -576,
+      "x": -4,
+      "y": -1472,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -556,22 +556,6 @@
           "value": 1
         }
       ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewText",
-      "persistentUuid": "b5fc6110-a72e-40eb-a709-7e92535e0888",
-      "width": 0,
-      "x": 3888,
-      "y": 128,
-      "zOrder": 1000,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [
@@ -1158,7 +1142,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "NOTES:\nThe background should probably always be a multiple of 1920, to make it a full screen width. \nWalls should be on the interior of the 1920 rectangle.\nTo add new static backgrounds, add a new animation to the \"spr_decor\" object, - \nand then when placing it into the scene, make its instance variable be the name of the animation. Use the clocks as reference.\nPlay the game in fullscreen mode. (f11)\nPress f4 to close the game immediately.\nAdded some visual effects to the camera.",
+      "string": "NOTES:\nThe background should probably always be a multiple of 1920, to make it a full screen width. \nWalls should be on the interior of the 1920 rectangle.\nTo add new static backgrounds, add a new animation to the \"spr_decor\" object, - \nand then when placing it into the scene, make its instance variable be the name of the animation. Use the clocks as reference.\nPlay the game in fullscreen mode. (f11)\nPress f4 to close the game immediately.\nAdded some visual effects to the camera.\nStairs are a bit more complicated, You need 4 objects, 2 stairs and 2 interact buttons. \n(technically you don't need the buttons, but I'm going for consitency) \nYou also don't technically need 2 stairs, but then its only one direction. \nTo make stair pairs, if going to a new floor that isn't on the level of any other, add the y-coords for the player to be at to the global structure. \nyou can get the coords by just moving the player in the editor and checking the properties panel.\nNext, set a door and button id to be the same, but the the same as any other pair. Also make sure to set the animation for the staircase. \n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 50,
@@ -1181,7 +1165,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "NOTES:\nThe background should probably always be a multiple of 1920, to make it a full screen width. \nWalls should be on the interior of the 1920 rectangle.\nTo add new static backgrounds, add a new animation to the \"spr_decor\" object, - \nand then when placing it into the scene, make its instance variable be the name of the animation. Use the clocks as reference.\nPlay the game in fullscreen mode. (f11)\nPress f4 to close the game immediately.\nAdded some visual effects to the camera.",
+        "text": "NOTES:\nThe background should probably always be a multiple of 1920, to make it a full screen width. \nWalls should be on the interior of the 1920 rectangle.\nTo add new static backgrounds, add a new animation to the \"spr_decor\" object, - \nand then when placing it into the scene, make its instance variable be the name of the animation. Use the clocks as reference.\nPlay the game in fullscreen mode. (f11)\nPress f4 to close the game immediately.\nAdded some visual effects to the camera.\nStairs are a bit more complicated, You need 4 objects, 2 stairs and 2 interact buttons. \n(technically you don't need the buttons, but I'm going for consitency) \nYou also don't technically need 2 stairs, but then its only one direction. \nTo make stair pairs, if going to a new floor that isn't on the level of any other, add the y-coords for the player to be at to the global structure. \nyou can get the coords by just moving the player in the editor and checking the properties panel.\nNext, set a door and button id to be the same, but the the same as any other pair. Also make sure to set the animation for the staircase. \n",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
