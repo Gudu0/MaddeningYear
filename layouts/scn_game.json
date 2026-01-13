@@ -20,12 +20,32 @@
     "gridColor": 10401023,
     "gridAlpha": 0.4,
     "snap": true,
-    "zoomFactor": 0.1816906597848627,
+    "zoomFactor": 0.2006974131454993,
     "windowMask": false,
     "selectedLayer": ""
   },
-  "objectsGroups": [],
-  "variables": [],
+  "objectsGroups": [
+    {
+      "name": "grp_interactable",
+      "objects": [
+        {
+          "name": "obj_stair"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "name": "pixelation",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "name": "inStair",
+      "type": "boolean",
+      "value": false
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -37,9 +57,9 @@
       "name": "obj_player",
       "persistentUuid": "cfb91113-844e-4e7f-9ebd-b34eebc9cd1e",
       "width": 128,
-      "x": 832,
+      "x": 3872,
       "y": 736,
-      "zOrder": 1,
+      "zOrder": 999,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -48,8 +68,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 32,
-      "keepRatio": true,
+      "height": 27,
       "layer": "",
       "name": "obj_wall",
       "persistentUuid": "da4c1cd5-445c-4f51-8b5a-08ce34b76b67",
@@ -104,7 +123,7 @@
       "layer": "",
       "name": "spr_CleanWallpaper",
       "persistentUuid": "dc6b446d-7e55-4c11-9713-7f7698f2a544",
-      "width": 3840,
+      "width": 5760,
       "x": 0,
       "y": 0,
       "zOrder": -999,
@@ -121,8 +140,8 @@
       "name": "obj_notes",
       "persistentUuid": "c656d7a1-eaac-46df-92fb-9963c6ccdf93",
       "width": 0,
-      "x": 512,
-      "y": -448,
+      "x": 480,
+      "y": -576,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -189,7 +208,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 896,
+      "height": 416,
       "keepRatio": true,
       "layer": "",
       "name": "obj_wall",
@@ -252,6 +271,307 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_wall",
+      "persistentUuid": "8aa2d6f6-5ab0-4646-9ec5-fe27ede9ccea",
+      "width": 1920,
+      "x": 3840,
+      "y": 1056,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 416,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_wall",
+      "persistentUuid": "d7ba9eff-11ab-4df9-beca-eee307ba8aea",
+      "width": 32,
+      "x": 3840,
+      "y": 0,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_wall",
+      "persistentUuid": "04aac5bf-2158-4d7a-b041-0e2629c64c5b",
+      "width": 1920,
+      "x": 3840,
+      "y": 0,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "keepRatio": true,
+      "layer": "",
+      "name": "spr_decor",
+      "persistentUuid": "cc648c9e-51bd-43ce-969f-ef4c47c65c41",
+      "width": 192,
+      "x": 5408,
+      "y": 192,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "animation",
+          "type": "string",
+          "value": "clock3"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1024,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_wall",
+      "persistentUuid": "8a38c159-84c6-475f-a6c0-6e1f9d0e8ac0",
+      "width": 32,
+      "x": 5728,
+      "y": 32,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_wall",
+      "persistentUuid": "bc9a9a3f-d60d-4140-be65-c345e50155f2",
+      "width": 1920,
+      "x": 3840,
+      "y": -32,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1056,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_wall",
+      "persistentUuid": "f815ffea-b410-464e-9ed2-b0e2e9d032ac",
+      "width": 32,
+      "x": 3840,
+      "y": -1088,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_wall",
+      "persistentUuid": "79e23d06-9237-4b7b-85c5-87ccfdec9b3c",
+      "width": 1920,
+      "x": 3840,
+      "y": -1088,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "keepRatio": true,
+      "layer": "",
+      "name": "spr_decor",
+      "persistentUuid": "70c7a535-795b-4ef4-870a-773b13a25143",
+      "width": 192,
+      "x": 5408,
+      "y": -896,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "animation",
+          "type": "string",
+          "value": "clock4"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1024,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_wall",
+      "persistentUuid": "eea4aec3-a975-4183-a387-ba9f445197d8",
+      "width": 32,
+      "x": 5728,
+      "y": -1056,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1088,
+      "keepRatio": true,
+      "layer": "",
+      "name": "spr_CleanWallpaper",
+      "persistentUuid": "92ab5545-623c-42c5-b129-52fa6ce5bb3c",
+      "width": 1920,
+      "x": 3840,
+      "y": -1088,
+      "zOrder": -999,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 736,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_stair",
+      "persistentUuid": "4c9b2984-d230-4b76-9730-5af64b64285e",
+      "width": 544,
+      "x": 4160,
+      "y": 320,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "anim",
+          "type": "string",
+          "value": "stair_up"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "spr_interact_button",
+      "persistentUuid": "8be835c7-ef5e-40e0-af97-bdb7a64c2ebd",
+      "width": 96,
+      "x": 4576,
+      "y": 864,
+      "zOrder": 998,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 736,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_stair",
+      "persistentUuid": "5e1b7d47-d416-427d-b361-e0b407dff2f6",
+      "width": 544,
+      "x": 4160,
+      "y": -768,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "spr_interact_button",
+      "persistentUuid": "22dff51f-91eb-48d0-ada6-07818fd885f5",
+      "width": 96,
+      "x": 4576,
+      "y": -224,
+      "zOrder": 998,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewText",
+      "persistentUuid": "b5fc6110-a72e-40eb-a709-7e92535e0888",
+      "width": 0,
+      "x": 3888,
+      "y": 128,
+      "zOrder": 1000,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -261,7 +581,18 @@
       "name": "obj_player",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "whichStair",
+          "type": "string",
+          "value": "none"
+        },
+        {
+          "name": "floor",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -827,7 +1158,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "NOTES:\nThe background should probably always be a multiple of 1920, to make it a full screen width. \nWalls should be on the interior of the 1920 rectangle.\nTo add new static backgrounds, add a new animation to the \"spr_decor\" object, - \nand then when placing it into the scene, make its instance variable be the name of the animation. Use the clocks as reference.\nPlay the game in fullscreen mode. (f11)\nPress f4 to close the game immediately.",
+      "string": "NOTES:\nThe background should probably always be a multiple of 1920, to make it a full screen width. \nWalls should be on the interior of the 1920 rectangle.\nTo add new static backgrounds, add a new animation to the \"spr_decor\" object, - \nand then when placing it into the scene, make its instance variable be the name of the animation. Use the clocks as reference.\nPlay the game in fullscreen mode. (f11)\nPress f4 to close the game immediately.\nAdded some visual effects to the camera.",
       "font": "",
       "textAlignment": "left",
       "characterSize": 50,
@@ -850,7 +1181,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "NOTES:\nThe background should probably always be a multiple of 1920, to make it a full screen width. \nWalls should be on the interior of the 1920 rectangle.\nTo add new static backgrounds, add a new animation to the \"spr_decor\" object, - \nand then when placing it into the scene, make its instance variable be the name of the animation. Use the clocks as reference.\nPlay the game in fullscreen mode. (f11)\nPress f4 to close the game immediately.",
+        "text": "NOTES:\nThe background should probably always be a multiple of 1920, to make it a full screen width. \nWalls should be on the interior of the 1920 rectangle.\nTo add new static backgrounds, add a new animation to the \"spr_decor\" object, - \nand then when placing it into the scene, make its instance variable be the name of the animation. Use the clocks as reference.\nPlay the game in fullscreen mode. (f11)\nPress f4 to close the game immediately.\nAdded some visual effects to the camera.",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -972,8 +1303,337 @@
               ]
             }
           ]
+        },
+        {
+          "name": "clock3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "clock4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 64,
+                        "y": 2
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 2,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "clock4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "clock5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 64,
+                        "y": 2
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 2,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "obj_stair",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "id",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "anim",
+          "type": "string",
+          "value": "stair_down"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "stair_up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "stair_up",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "stair_down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "stair_down",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "spr_interact_button",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "id",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "spr_interact",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "spr_interact",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 29
+                      },
+                      {
+                        "x": 3,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "NewText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -981,6 +1641,9 @@
     "children": [
       {
         "objectName": "obj_player"
+      },
+      {
+        "objectName": "NewText"
       },
       {
         "objectName": "obj_wall"
@@ -993,6 +1656,12 @@
       },
       {
         "objectName": "spr_decor"
+      },
+      {
+        "objectName": "obj_stair"
+      },
+      {
+        "objectName": "spr_interact_button"
       }
     ]
   },
@@ -1043,11 +1712,27 @@
             "yes",
             "yes"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "spr_interact_button"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "obj_player",
+            "\"stairAnim\""
+          ]
         }
       ]
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1075,6 +1760,24 @@
                 "Animation",
                 "=",
                 "spr_decor.animation"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "obj_stair",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "obj_stair",
+                "Animation",
+                "=",
+                "obj_stair.anim"
               ]
             }
           ]
@@ -1461,6 +2164,540 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Interaction",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Interaction code. makes a \"interact\" button appear."
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "obj_player",
+                "grp_interactable",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AjoutObjConcern"
+              },
+              "parameters": [
+                "spr_interact_button",
+                "spr_interact_button"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "spr_interact_button",
+                    "id",
+                    "=",
+                    "grp_interactable.id"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "spr_interact_button",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "spr_interact_button",
+                    "id",
+                    "=",
+                    "grp_interactable.id"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "spr_interact_button"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "obj_player",
+                "grp_interactable",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AjoutObjConcern"
+              },
+              "parameters": [
+                "spr_interact_button",
+                "spr_interact_button"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "spr_interact_button"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "stair \"anim\"",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "obj_stair",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"e\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "\"stairAnim\"",
+                    ">=",
+                    "StairTime"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "inStair",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "MoveSpeed",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "pixelation",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "\"stairAnim\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EnableLayerEffect"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"pixelate\"",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "inStair",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "whichStair",
+                    "=",
+                    "obj_stair.Animation::Name()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "\"stairAnim\"",
+                    "<",
+                    "StairTime"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "inStair",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetLayerEffectParameter"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"pixelate\"",
+                    "\"size\"",
+                    "pixelation"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "pixelation",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "\"stairAnim\"",
+                    ">=",
+                    "StairTime"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "inStair",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "inStair",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EnableLayerEffect"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"pixelate\"",
+                    "no"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "obj_player",
+                        "whichStair",
+                        "=",
+                        "\"stair_up\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "obj_player",
+                        "floor",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "obj_player",
+                        "whichStair",
+                        "=",
+                        "\"stair_down\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "obj_player",
+                        "floor",
+                        "-",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "obj_player",
+                        "floor",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "obj_player",
+                        "=",
+                        "Ys.floor0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "obj_player",
+                        "floor",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "obj_player",
+                        "=",
+                        "Ys.floor1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "CentreCamera"
+                      },
+                      "parameters": [
+                        "",
+                        "obj_player",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCameraCenterY"
+                      },
+                      "parameters": [
+                        "",
+                        "-",
+                        "352",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "MoveSpeed",
+                        "=",
+                        "400"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "obj_player",
+                        "whichStair",
+                        "=",
+                        "\"none\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
@@ -1494,39 +2731,51 @@
       ],
       "effects": [
         {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Ambient Hemisphere Light",
+          "effectType": "KawaseBlur",
+          "folded": true,
+          "name": "blue",
           "doubleParameters": {
-            "elevation": 40,
-            "intensity": 0.33,
-            "rotation": 300
+            "blur": 0.05,
+            "padding": 0,
+            "pixelizeX": 0.1,
+            "pixelizeY": 0.1,
+            "quality": 2
           },
-          "stringParameters": {
-            "groundColor": "127;127;127",
-            "skyColor": "255;255;255",
-            "top": "Z+"
-          },
+          "stringParameters": {},
           "booleanParameters": {}
         },
         {
-          "effectType": "Scene3D::DirectionalLight",
-          "name": "3D Sun Light",
+          "effectType": "Noise",
+          "folded": true,
+          "name": "noise",
           "doubleParameters": {
-            "distanceFromCamera": 1500,
-            "elevation": 40,
-            "frustumSize": 4000,
-            "intensity": 0.75,
-            "minimumShadowBias": 0,
-            "rotation": 300
+            "noise": 0.05
           },
-          "stringParameters": {
-            "color": "255;255;255",
-            "shadowQuality": "medium",
-            "top": "Z+"
+          "stringParameters": {},
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "ZoomBlur",
+          "folded": true,
+          "name": "zoomblur",
+          "doubleParameters": {
+            "centerX": 0.5,
+            "centerY": 0.5,
+            "innerRadius": 200,
+            "padding": 0,
+            "strength": 0.15
           },
-          "booleanParameters": {
-            "isCastingShadow": true
-          }
+          "stringParameters": {},
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Pixelate",
+          "name": "pixelate",
+          "doubleParameters": {
+            "size": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
         }
       ]
     }
