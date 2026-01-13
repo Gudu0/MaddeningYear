@@ -1,0 +1,257 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 251,
+    "major": 5,
+    "minor": 6,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "default",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "e0d5a0cf-e79b-4723-ba3e-afa82a26bc75",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "Maddening Year",
+    "description": "",
+    "author": "",
+    "windowWidth": 1920,
+    "windowHeight": 1080,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [
+      "mobile",
+      "mobile"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/CLEANWALLPAPER.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CLEANWALLPAPER.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/913dbcfa-ad01-4f03-9cbf-8266227dd5fe/resources/ada3370589cfa3a7d2bf0aa4417d2b7b529c678e34726153e853e7997747c3ca-CLEANWALLPAPER.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/left2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/clock2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "clock2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/clock3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "clock3",
+        "smoothed": false,
+        "userAdded": false
+      }
+    ]
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "MoveSpeed",
+      "type": "number",
+      "value": 400
+    },
+    {
+      "name": "offset",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scn_game"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": []
+}
