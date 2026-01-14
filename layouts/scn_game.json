@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.4,
     "snap": true,
-    "zoomFactor": 0.11420623007494694,
+    "zoomFactor": 0.3088741216342693,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -57,7 +57,7 @@
       "name": "obj_player",
       "persistentUuid": "cfb91113-844e-4e7f-9ebd-b34eebc9cd1e",
       "width": 128,
-      "x": 3872,
+      "x": 672,
       "y": 736,
       "zOrder": 999,
       "numberProperties": [],
@@ -68,7 +68,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 27,
+      "height": 32,
       "layer": "",
       "name": "obj_wall",
       "persistentUuid": "da4c1cd5-445c-4f51-8b5a-08ce34b76b67",
@@ -118,7 +118,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1056,
+      "height": 1088,
       "keepRatio": true,
       "layer": "",
       "name": "spr_CleanWallpaper",
@@ -2040,18 +2040,6 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 63,
-            "g": 126,
-            "r": 139,
-            "textB": 0,
-            "textG": 255,
-            "textR": 133
-          },
-          "comment": "maybe work this into only the movement keys - DONE"
-        },
-        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2462,6 +2450,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
