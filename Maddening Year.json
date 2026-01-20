@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 251,
+    "build": 252,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -265,6 +265,131 @@
         "name": "stair_down",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/clock6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "clock6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/clock7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "clock7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Nosifer-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "1629c2a4e484eaa68d5a0072488006012b72c539d11429b015f7382e7ecfd633_Nosifer-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/1629c2a4e484eaa68d5a0072488006012b72c539d11429b015f7382e7ecfd633_Nosifer-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "dresser.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dresser.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "dresser2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dresser2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/dresser.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dresser",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/dresser2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/dresser2.png\"}",
+        "name": "dresser2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/dresser_open.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dresser_open",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hand.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hand",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hand2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hand2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hand_far.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/hand_far.png\"}",
+        "name": "hand_far",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/visible.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "visible",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "title theme.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "title theme.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "hand_open.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hand_open.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/hand3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "hand3",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -278,11 +403,6 @@
       "name": "MoveSpeed",
       "type": "number",
       "value": 400
-    },
-    {
-      "name": "offset",
-      "type": "number",
-      "value": 0
     },
     {
       "name": "StairTime",
@@ -302,6 +422,11 @@
           "name": "floor1",
           "type": "number",
           "value": -352
+        },
+        {
+          "name": "floor2",
+          "type": "number",
+          "value": -1440
         }
       ]
     }

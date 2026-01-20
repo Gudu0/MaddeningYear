@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.4,
     "snap": true,
-    "zoomFactor": 0.3088741216342693,
+    "zoomFactor": 0.22169247275005569,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -57,8 +57,8 @@
       "name": "obj_player",
       "persistentUuid": "cfb91113-844e-4e7f-9ebd-b34eebc9cd1e",
       "width": 128,
-      "x": 672,
-      "y": 736,
+      "x": 5568,
+      "y": -352,
       "zOrder": 999,
       "numberProperties": [],
       "stringProperties": [],
@@ -101,7 +101,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 416,
+      "height": 1056,
       "keepRatio": true,
       "layer": "",
       "name": "obj_wall",
@@ -140,8 +140,8 @@
       "name": "obj_notes",
       "persistentUuid": "c656d7a1-eaac-46df-92fb-9963c6ccdf93",
       "width": 0,
-      "x": -4,
-      "y": -1472,
+      "x": 512,
+      "y": -968,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -441,14 +441,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1024,
+      "height": 1056,
       "keepRatio": true,
       "layer": "",
       "name": "obj_wall",
       "persistentUuid": "eea4aec3-a975-4183-a387-ba9f445197d8",
       "width": 32,
-      "x": 5728,
-      "y": -1056,
+      "x": 7648,
+      "y": -1088,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -463,7 +463,7 @@
       "layer": "",
       "name": "spr_CleanWallpaper",
       "persistentUuid": "92ab5545-623c-42c5-b129-52fa6ce5bb3c",
-      "width": 1920,
+      "width": 3840,
       "x": 3840,
       "y": -1088,
       "zOrder": -999,
@@ -556,6 +556,421 @@
           "value": 1
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_wall",
+      "persistentUuid": "5c3a1e25-8c47-4d36-88fc-f78a0a7ba444",
+      "width": 1920,
+      "x": 5760,
+      "y": -32,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 416,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_wall",
+      "persistentUuid": "b78a2a00-b7ad-4482-b7c0-40fba5ac9fcd",
+      "width": 32,
+      "x": 5728,
+      "y": -1088,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 416,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_wall",
+      "persistentUuid": "a6b61efb-86e5-42a7-bc3a-9cf7a5250b5c",
+      "width": 32,
+      "x": 5760,
+      "y": -1088,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_wall",
+      "persistentUuid": "547ec9f1-5b8f-4a28-9a92-8b4e03549ab7",
+      "width": 1920,
+      "x": 5760,
+      "y": -1088,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "keepRatio": true,
+      "layer": "",
+      "name": "spr_decor",
+      "persistentUuid": "3825db92-cef3-4d95-bc93-df981f001800",
+      "width": 192,
+      "x": 7328,
+      "y": -896,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "animation",
+          "type": "string",
+          "value": "clock5"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 736,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_stair",
+      "persistentUuid": "00b53beb-79a6-4914-ad85-a6a582b13e4e",
+      "width": 544,
+      "x": 6016,
+      "y": -768,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "name": "anim",
+          "type": "string",
+          "value": "stair_up"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "spr_interact_button",
+      "persistentUuid": "8b7865e1-1ce0-425b-9672-59bf9928382a",
+      "width": 96,
+      "x": 6432,
+      "y": -224,
+      "zOrder": 998,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "number",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_wall",
+      "persistentUuid": "15228325-1782-480e-a701-127c22afd0f2",
+      "width": 1920,
+      "x": 5760,
+      "y": -1120,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1056,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_wall",
+      "persistentUuid": "7d59e531-6360-4946-afe7-21aa7a9290d0",
+      "width": 32,
+      "x": 5760,
+      "y": -2176,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_wall",
+      "persistentUuid": "1a688a07-d4d5-4300-aee3-79f7dd997ef0",
+      "width": 1920,
+      "x": 5760,
+      "y": -2176,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "keepRatio": true,
+      "layer": "",
+      "name": "spr_decor",
+      "persistentUuid": "f7f95444-0be5-4250-8f1e-40f1f9e65732",
+      "width": 192,
+      "x": 7328,
+      "y": -1984,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "animation",
+          "type": "string",
+          "value": "clock6"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 736,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_stair",
+      "persistentUuid": "c0544836-75ad-4d33-859f-495149772134",
+      "width": 544,
+      "x": 6016,
+      "y": -1856,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "number",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "spr_interact_button",
+      "persistentUuid": "6c806449-aaf5-4584-9d68-59e59fcc88b1",
+      "width": 96,
+      "x": 6432,
+      "y": -1312,
+      "zOrder": 998,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "number",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1056,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_wall",
+      "persistentUuid": "4d0416ed-bdd4-4e71-ae3e-8a441f0ee3e5",
+      "width": 32,
+      "x": 7648,
+      "y": -2176,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1088,
+      "keepRatio": true,
+      "layer": "",
+      "name": "spr_CleanWallpaper",
+      "persistentUuid": "6df1567f-e48d-4fda-bb4c-2c925a974c5d",
+      "width": 1920,
+      "x": 5760,
+      "y": -2176,
+      "zOrder": -999,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bbtxt_floor",
+      "persistentUuid": "bc5fd006-1afb-41ac-a798-8765d40cbea5",
+      "width": 512,
+      "x": 4224,
+      "y": 352,
+      "zOrder": 1000,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "floor",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bbtxt_floor",
+      "persistentUuid": "084b7ae9-f103-42d1-88f5-f044852e7d9f",
+      "width": 448,
+      "x": 4224,
+      "y": -736,
+      "zOrder": 1000,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "floor",
+          "type": "number",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bbtxt_floor",
+      "persistentUuid": "fda1a568-6e5e-49bd-9f63-e107da1a555b",
+      "width": 544,
+      "x": 6080,
+      "y": -736,
+      "zOrder": 1000,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "floor",
+          "type": "number",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bbtxt_floor",
+      "persistentUuid": "0f12c37c-ab4a-4fa7-9644-7b0514831a21",
+      "width": 607,
+      "x": 6081,
+      "y": -1824,
+      "zOrder": 1000,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_drawer",
+      "persistentUuid": "a20f6e6c-6a45-4932-a1e7-b82783f33811",
+      "width": 192,
+      "x": 6784,
+      "y": -224,
+      "zOrder": 1001,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "spr_cursor",
+      "persistentUuid": "a3736c1c-e94c-4d81-a770-49fd023a437d",
+      "width": 0,
+      "x": 5683,
+      "y": -207,
+      "zOrder": 1002,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1051,7 +1466,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "wall",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1385,6 +1800,104 @@
               ]
             }
           ]
+        },
+        {
+          "name": "clock5",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "clock6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 64,
+                        "y": 2
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 2,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "clock6",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "clock7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 64,
+                        "y": 2
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 2,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1618,6 +2131,279 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "bbtxt_floor",
+      "type": "BBText::BBText",
+      "variables": [
+        {
+          "name": "floor",
+          "type": "number",
+          "value": 3
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[shadow=grey][b]Floor[/b][/shadow] ",
+        "opacity": 255,
+        "fontSize": 50,
+        "visible": true,
+        "color": "255;255;255",
+        "fontFamily": "1629c2a4e484eaa68d5a0072488006012b72c539d11429b015f7382e7ecfd633_Nosifer-Regular.ttf",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "obj_drawer",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "anim",
+          "type": "string",
+          "value": "dresser"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "dresser",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "dresser2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "dresser_open",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "dresser_open",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "spr_cursor",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "hand",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "hand3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 25,
+                    "y": 43
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 25,
+                    "y": 43
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 55,
+                        "y": 0
+                      },
+                      {
+                        "x": 55,
+                        "y": 70
+                      },
+                      {
+                        "x": 0,
+                        "y": 70
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hand_far",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "hand_far",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 14.5,
+                    "y": 20
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 14.5,
+                    "y": 20
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 55,
+                        "y": 0
+                      },
+                      {
+                        "x": 55,
+                        "y": 70
+                      },
+                      {
+                        "x": 0,
+                        "y": 70
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "obj_dresser_inv",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "visible",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "visible",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1630,10 +2416,16 @@
         "objectName": "NewText"
       },
       {
+        "objectName": "bbtxt_floor"
+      },
+      {
         "objectName": "obj_wall"
       },
       {
         "objectName": "spr_CleanWallpaper"
+      },
+      {
+        "objectName": "obj_drawer"
       },
       {
         "objectName": "obj_notes"
@@ -1646,6 +2438,12 @@
       },
       {
         "objectName": "spr_interact_button"
+      },
+      {
+        "objectName": "spr_cursor"
+      },
+      {
+        "objectName": "obj_dresser_inv"
       }
     ]
   },
@@ -1713,10 +2511,42 @@
             "obj_player",
             "\"stairAnim\""
           ]
+        },
+        {
+          "type": {
+            "value": "HideCursor"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "title theme.wav",
+            "yes",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "spr_cursor",
+            "Scale",
+            "=",
+            "0.8"
+          ]
         }
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1765,6 +2595,23 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "bbtxt_floor",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "bbtxt_floor",
+                "=",
+                "\"[shadow=grey][b]Floor \" + ToString(bbtxt_floor.floor) + \"[/b][/shadow]\""
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1793,10 +2640,29 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "spr_cursor",
+            "=",
+            "CursorX()",
+            "=",
+            "CursorY()"
+          ]
+        }
+      ]
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1913,6 +2779,17 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "obj_dresser_inv",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -1989,6 +2866,17 @@
                     "\"Left\""
                   ]
                 }
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "obj_dresser_inv",
+                "=",
+                "0"
               ]
             }
           ],
@@ -2450,7 +3338,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -2615,6 +3502,34 @@
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "obj_player",
+                        "floor",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "obj_player",
+                        "=",
+                        "Ys.floor2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
@@ -2671,6 +3586,194 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Dresser Interaction",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "spr_cursor",
+                "obj_drawer",
+                "150",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "spr_cursor",
+                "Animation",
+                "=",
+                "\"hand_far\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "spr_cursor",
+                "obj_drawer",
+                "150",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "spr_cursor",
+                "Animation",
+                "=",
+                "\"hand\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "spr_cursor",
+                "obj_drawer",
+                "150",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "obj_dresser_inv",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "obj_dresser_inv",
+                "128",
+                "128",
+                "\"UI\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "obj_dresser_inv",
+                "Resizable",
+                "1920 - 256",
+                "1080 - 256"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "obj_dresser_inv",
+                "Opacity",
+                "=",
+                "180"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "obj_dresser_inv",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Escape\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "obj_dresser_inv",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
@@ -2704,6 +3807,7 @@
       ],
       "effects": [
         {
+          "disabled": true,
           "effectType": "KawaseBlur",
           "folded": true,
           "name": "blue",
@@ -2718,6 +3822,7 @@
           "booleanParameters": {}
         },
         {
+          "disabled": true,
           "effectType": "Noise",
           "folded": true,
           "name": "noise",
@@ -2728,6 +3833,7 @@
           "booleanParameters": {}
         },
         {
+          "disabled": true,
           "effectType": "ZoomBlur",
           "folded": true,
           "name": "zoomblur",
@@ -2749,6 +3855,60 @@
           },
           "stringParameters": {},
           "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
         }
       ]
     }
