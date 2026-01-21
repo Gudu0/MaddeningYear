@@ -390,6 +390,22 @@
         "name": "hand3",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "dresser (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dresser (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/dresser3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dresser3",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },

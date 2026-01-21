@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.4,
     "snap": true,
-    "zoomFactor": 0.22169247275005569,
+    "zoomFactor": 0.27050126039626016,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -2183,7 +2183,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "dresser2",
+                  "image": "dresser3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2514,14 +2514,6 @@
         },
         {
           "type": {
-            "value": "HideCursor"
-          },
-          "parameters": [
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "PlaySound"
           },
           "parameters": [
@@ -2541,6 +2533,14 @@
             "Scale",
             "=",
             "0.8"
+          ]
+        },
+        {
+          "type": {
+            "value": "HideCursor"
+          },
+          "parameters": [
+            ""
           ]
         }
       ]
@@ -3030,7 +3030,8 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "Interaction",
+      "folded": true,
+      "name": "Stair Interaction",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -3173,6 +3174,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "stair \"anim\"",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
