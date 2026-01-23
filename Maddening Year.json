@@ -406,6 +406,125 @@
         "name": "dresser3",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/battery.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "battery",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Battery(1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Battery(1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/battery2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "battery2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "detective.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "detective.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/right7.png\"}",
+        "name": "right7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/battery3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "battery3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "detective other side.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "detective other side.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../Downloads/WallPaneling.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Downloads\\WallPaneling.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "WallPaneling.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WallPaneling.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/JotiOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "a8c7c959ab7f3dbb0fcf98d5355fb8839186d33f3c9d7203ef20450fa5a72091_JotiOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/a8c7c959ab7f3dbb0fcf98d5355fb8839186d33f3c9d7203ef20450fa5a72091_JotiOne-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "Record (online-voice-recorder.com).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Record (online-voice-recorder.com).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Record (online-voice-recorder.com)-2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Record (online-voice-recorder.com)-2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
