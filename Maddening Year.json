@@ -98,7 +98,7 @@
         "file": "assets/NewSprite.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite",
+        "name": "wall",
         "smoothed": false,
         "userAdded": false
       },
@@ -229,22 +229,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/left.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/left.png\"}",
-        "name": "left",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/right8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "right8",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "WallPaneling.png",
         "kind": "image",
         "metadata": "",
@@ -274,18 +258,34 @@
         "userAdded": false
       },
       {
-        "file": "assets/left walk 1(1)3.png",
+        "file": "assets/left8.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "left walk 1(1)3",
+        "name": "left",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/left walk 1(1)4.png",
+        "file": "assets/left8.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "left walk 1(1)4",
+        "name": "left2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left4",
         "smoothed": false,
         "userAdded": false
       }
