@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.4,
     "snap": true,
-    "zoomFactor": 0.14890670595874583,
+    "zoomFactor": 0.9227465364204762,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -979,7 +979,7 @@
       "width": 128,
       "x": 64,
       "y": 64,
-      "zOrder": 1316134913,
+      "zOrder": 1316,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1061,8 +1061,8 @@
       "name": "shpp_flashlight",
       "persistentUuid": "828766be-d7a2-4b92-8eee-f61745a60221",
       "width": 0,
-      "x": 6720,
-      "y": 288,
+      "x": 6464,
+      "y": 128,
       "zOrder": 100000,
       "numberProperties": [],
       "stringProperties": [],
@@ -1152,6 +1152,91 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "left",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 40,
+                        "y": 0
+                      },
+                      {
+                        "x": 40,
+                        "y": 105
+                      },
+                      {
+                        "x": 0,
+                        "y": 105
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "left walk 1(1)3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "left walk 1(1)3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 40,
+                        "y": 0
+                      },
+                      {
+                        "x": 40,
+                        "y": 105
+                      },
+                      {
+                        "x": 0,
+                        "y": 105
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "left walk 1(1)4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2498,6 +2583,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3586,18 +3672,6 @@
       "actions": [
         {
           "type": {
-            "value": "SetXY"
-          },
-          "parameters": [
-            "shpp_flashlight",
-            "=",
-            "obj_player.CenterX()",
-            "=",
-            "obj_player.CenterY()"
-          ]
-        },
-        {
-          "type": {
             "value": "RotateTowardObject"
           },
           "parameters": [
@@ -3631,10 +3705,10 @@
               },
               "parameters": [
                 "shpp_flashlight",
-                "obj_player.CenterX()",
-                "obj_player.CenterY()",
                 "obj_player.CenterX() - 60",
-                "obj_player.CenterY() - 60"
+                "obj_player.CenterY() - 60",
+                "obj_player.CenterX()",
+                "obj_player.CenterY() "
               ]
             }
           ]
@@ -3662,9 +3736,9 @@
               "parameters": [
                 "shpp_flashlight",
                 "obj_player.CenterX()",
-                "obj_player.CenterY()",
-                "obj_player.CenterX() + 60",
-                "obj_player.CenterY() + 60"
+                "obj_player.CenterY() - 60",
+                "obj_player.CenterX()  + 60",
+                "obj_player.CenterY() "
               ]
             }
           ]
