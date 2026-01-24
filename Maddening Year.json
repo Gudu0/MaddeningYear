@@ -195,16 +195,6 @@
         "userAdded": false
       },
       {
-        "file": "title theme.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "title theme.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/hand3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -229,63 +219,94 @@
         "userAdded": false
       },
       {
-        "file": "WallPaneling.png",
+        "file": "assets/WallPaneling.png",
         "kind": "image",
         "metadata": "",
-        "name": "WallPaneling.png",
+        "name": "assets\\WallPaneling.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/JotiOne-Regular.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "a8c7c959ab7f3dbb0fcf98d5355fb8839186d33f3c9d7203ef20450fa5a72091_JotiOne-Regular.ttf",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/a8c7c959ab7f3dbb0fcf98d5355fb8839186d33f3c9d7203ef20450fa5a72091_JotiOne-Regular.ttf",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "file": "Record (online-voice-recorder.com)-2.mp3",
+        "file": "assets/Sounds/background-music.wav",
         "kind": "audio",
         "metadata": "",
-        "name": "Record (online-voice-recorder.com)-2.mp3",
+        "name": "assets\\Sounds\\background-music.wav",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
       },
       {
-        "file": "assets/left8.png",
+        "file": "assets/Sounds/drawer-open.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sounds\\drawer-open.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/left.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "left",
+        "metadata": "",
+        "name": "assets\\Player\\left.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/left8.png",
+        "file": "assets/Player/left2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "left2",
+        "metadata": "",
+        "name": "assets\\Player\\left2.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/left8.png",
+        "file": "assets/Player/left3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "left3",
+        "metadata": "",
+        "name": "assets\\Player\\left3.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/left8.png",
+        "file": "assets/Player/left4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "left4",
+        "metadata": "",
+        "name": "assets\\Player\\left4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\right.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/right2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\right2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/right3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\right3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player/right4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player\\right4.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -308,6 +329,7 @@
       "value": 1
     },
     {
+      "folded": true,
       "name": "Ys",
       "type": "structure",
       "children": [
@@ -327,6 +349,16 @@
           "value": -1440
         }
       ]
+    },
+    {
+      "name": "batt_charge",
+      "type": "number",
+      "value": 150
+    },
+    {
+      "name": "animTimeStair",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [

@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.4,
     "snap": true,
-    "zoomFactor": 0.38958562738273733,
+    "zoomFactor": 0.3645833333333419,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -57,7 +57,7 @@
       "name": "obj_player",
       "persistentUuid": "cfb91113-844e-4e7f-9ebd-b34eebc9cd1e",
       "width": 128,
-      "x": 6575,
+      "x": 7136,
       "y": -352,
       "zOrder": 9999,
       "numberProperties": [],
@@ -942,7 +942,7 @@
         {
           "name": "amount",
           "type": "number",
-          "value": 200
+          "value": 30
         },
         {
           "name": "item",
@@ -1054,15 +1054,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
       "keepRatio": true,
       "layer": "",
       "name": "shpp_flashlight",
       "persistentUuid": "828766be-d7a2-4b92-8eee-f61745a60221",
-      "width": 0,
-      "x": 6464,
-      "y": 128,
+      "width": 32,
+      "x": 6112,
+      "y": 288,
       "zOrder": 100000,
       "numberProperties": [],
       "stringProperties": [],
@@ -1092,18 +1093,6 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "right",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": []
-            }
-          ]
-        },
-        {
           "name": "left",
           "useMultipleDirections": false,
           "directions": [
@@ -1113,9 +1102,15 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "left",
-                  "points": [],
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Player\\left.png",
+                  "points": [
+                    {
+                      "name": "flash_start",
+                      "x": 10.5,
+                      "y": 37.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1130,28 +1125,34 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 37,
-                        "y": 17
+                        "x": 9,
+                        "y": 0
                       },
                       {
-                        "x": 96,
-                        "y": 17
+                        "x": 49,
+                        "y": 0
                       },
                       {
-                        "x": 96,
-                        "y": 124
+                        "x": 49,
+                        "y": 105
                       },
                       {
-                        "x": 37,
-                        "y": 124
+                        "x": 9,
+                        "y": 105
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "left2",
-                  "points": [],
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Player\\left2.png",
+                  "points": [
+                    {
+                      "name": "flash_start",
+                      "x": 4,
+                      "y": 37.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1166,28 +1167,34 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 37,
-                        "y": 17
+                        "x": 9,
+                        "y": 0
                       },
                       {
-                        "x": 96,
-                        "y": 17
+                        "x": 49,
+                        "y": 0
                       },
                       {
-                        "x": 96,
-                        "y": 124
+                        "x": 49,
+                        "y": 105
                       },
                       {
-                        "x": 37,
-                        "y": 124
+                        "x": 9,
+                        "y": 105
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "left3",
-                  "points": [],
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Player\\left3.png",
+                  "points": [
+                    {
+                      "name": "flash_start",
+                      "x": 10.5,
+                      "y": 37.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1202,28 +1209,34 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 37,
-                        "y": 17
+                        "x": 9,
+                        "y": 0
                       },
                       {
-                        "x": 96,
-                        "y": 17
+                        "x": 49,
+                        "y": 0
                       },
                       {
-                        "x": 96,
-                        "y": 124
+                        "x": 49,
+                        "y": 105
                       },
                       {
-                        "x": 37,
-                        "y": 124
+                        "x": 9,
+                        "y": 105
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "left4",
-                  "points": [],
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Player\\left4.png",
+                  "points": [
+                    {
+                      "name": "flash_start",
+                      "x": 5,
+                      "y": 37.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1238,20 +1251,201 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 37,
-                        "y": 17
+                        "x": 9,
+                        "y": 0
                       },
                       {
-                        "x": 96,
-                        "y": 17
+                        "x": 49,
+                        "y": 0
                       },
                       {
-                        "x": 96,
-                        "y": 124
+                        "x": 49,
+                        "y": 105
                       },
                       {
-                        "x": 37,
-                        "y": 124
+                        "x": 9,
+                        "y": 105
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Player\\right.png",
+                  "points": [
+                    {
+                      "name": "flash_start",
+                      "x": 49,
+                      "y": 38.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 49,
+                        "y": 0
+                      },
+                      {
+                        "x": 49,
+                        "y": 105
+                      },
+                      {
+                        "x": 9,
+                        "y": 105
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Player\\right2.png",
+                  "points": [
+                    {
+                      "name": "flash_start",
+                      "x": 54.5,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 49,
+                        "y": 0
+                      },
+                      {
+                        "x": 49,
+                        "y": 105
+                      },
+                      {
+                        "x": 9,
+                        "y": 105
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Player\\right3.png",
+                  "points": [
+                    {
+                      "name": "flash_start",
+                      "x": 49.5,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 49,
+                        "y": 0
+                      },
+                      {
+                        "x": 49,
+                        "y": 105
+                      },
+                      {
+                        "x": 9,
+                        "y": 105
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Player\\right4.png",
+                  "points": [
+                    {
+                      "name": "flash_start",
+                      "x": 54.5,
+                      "y": 38
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 49,
+                        "y": 0
+                      },
+                      {
+                        "x": 49,
+                        "y": 105
+                      },
+                      {
+                        "x": 9,
+                        "y": 105
                       }
                     ]
                   ]
@@ -1964,7 +2158,7 @@
         "fontSize": 50,
         "visible": true,
         "color": "255;255;255",
-        "fontFamily": "a8c7c959ab7f3dbb0fcf98d5355fb8839186d33f3c9d7203ef20450fa5a72091_JotiOne-Regular.ttf",
+        "fontFamily": "Joti-one.ttf",
         "align": "left",
         "verticalTextAlignment": "top"
       }
@@ -2208,7 +2402,7 @@
       "assetStoreId": "",
       "height": 128,
       "name": "spr_wallPaneling",
-      "texture": "WallPaneling.png",
+      "texture": "assets\\WallPaneling.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 128,
       "variables": [],
@@ -2360,20 +2554,11 @@
         },
         {
           "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "obj_player",
-            "\"stairAnim\""
-          ]
-        },
-        {
-          "type": {
             "value": "PlaySound"
           },
           "parameters": [
             "",
-            "title theme.wav",
+            "assets\\Sounds\\background-music.wav",
             "yes",
             "",
             ""
@@ -2397,22 +2582,46 @@
           "parameters": [
             ""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
           "type": {
-            "value": "SceneJustBegins"
+            "value": "PrimitiveDrawing::FillColor"
           },
           "parameters": [
-            ""
+            "shpp_flashlight",
+            "\"200;211;116\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::FillOpacity"
+          },
+          "parameters": [
+            "shpp_flashlight",
+            "=",
+            "160"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineColor"
+          },
+          "parameters": [
+            "shpp_flashlight",
+            "\"200;211;116\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::OutlineOpacity"
+          },
+          "parameters": [
+            "shpp_flashlight",
+            "=",
+            "160"
           ]
         }
-      ],
-      "actions": []
+      ]
     },
     {
       "folded": true,
@@ -2915,7 +3124,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Stair Interaction",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2933,7 +3141,6 @@
           "comment": "Interaction code. makes a \"interact\" button appear."
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3090,17 +3297,6 @@
                 },
                 {
                   "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "obj_player",
-                    "\"stairAnim\"",
-                    ">=",
-                    "StairTime"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "BooleanVariable"
                   },
                   "parameters": [
@@ -3129,15 +3325,6 @@
                     "pixelation",
                     "=",
                     "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "obj_player",
-                    "\"stairAnim\""
                   ]
                 },
                 {
@@ -3179,23 +3366,22 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "obj_player",
-                    "\"stairAnim\"",
-                    "<",
-                    "StairTime"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "BooleanVariable"
                   },
                   "parameters": [
                     "inStair",
                     "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "animTimeStair",
+                    "<",
+                    "100"
                   ]
                 }
               ],
@@ -3221,24 +3407,22 @@
                     "+",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "animTimeStair",
+                    "+",
+                    "1"
+                  ]
                 }
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
-                {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "obj_player",
-                    "\"stairAnim\"",
-                    ">=",
-                    "StairTime"
-                  ]
-                },
                 {
                   "type": {
                     "value": "BooleanVariable"
@@ -3247,6 +3431,16 @@
                     "inStair",
                     "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "animTimeStair",
+                    ">=",
+                    "100"
                   ]
                 }
               ],
@@ -3259,6 +3453,16 @@
                     "inStair",
                     "False",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "animTimeStair",
+                    "=",
+                    "0"
                   ]
                 },
                 {
@@ -3616,7 +3820,7 @@
               },
               "parameters": [
                 "",
-                "Record (online-voice-recorder.com)-2.mp3",
+                "assets\\Sounds\\drawer-open.mp3",
                 "",
                 "",
                 ""
@@ -3643,6 +3847,7 @@
       "parameters": []
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -3653,22 +3858,70 @@
             "",
             "\"f\""
           ]
+        },
+        {
+          "type": {
+            "value": "Inventory::Count"
+          },
+          "parameters": [
+            "",
+            "\"Player\"",
+            "\"battery\"",
+            ">",
+            "0"
+          ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "RotateTowardObject"
+            "value": "SetNumberVariable"
           },
           "parameters": [
-            "shpp_flashlight",
-            "spr_cursor",
-            "180",
-            ""
+            "batt_charge",
+            "-",
+            "1"
           ]
         }
       ],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "batt_charge",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Inventory::Remove"
+              },
+              "parameters": [
+                "",
+                "\"Player\"",
+                "\"battery\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "batt_charge",
+                "=",
+                "150"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -3687,14 +3940,64 @@
           "actions": [
             {
               "type": {
-                "value": "PrimitiveDrawing::Rectangle"
+                "value": "SetXY"
               },
               "parameters": [
                 "shpp_flashlight",
-                "obj_player.CenterX() - 60",
-                "obj_player.CenterY() - 60",
-                "obj_player.CenterX()",
-                "obj_player.CenterY() "
+                "=",
+                "obj_player.PointX(\"flash_start\")",
+                "=",
+                "obj_player.PointY(\"flash_start\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::BeginFillPath"
+              },
+              "parameters": [
+                "shpp_flashlight",
+                "shpp_flashlight.X()",
+                "shpp_flashlight.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::PathLineTo"
+              },
+              "parameters": [
+                "shpp_flashlight",
+                "shpp_flashlight.X() - 360",
+                "shpp_flashlight.Y() - 60"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "shpp_flashlight",
+                "=",
+                "shpp_flashlight.X() - 360",
+                "=",
+                "shpp_flashlight.Y() - 60"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::PathLineTo"
+              },
+              "parameters": [
+                "shpp_flashlight",
+                "shpp_flashlight.X()",
+                "shpp_flashlight.Y() + 120"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::closePath"
+              },
+              "parameters": [
+                "shpp_flashlight"
               ]
             }
           ]
@@ -3717,14 +4020,64 @@
           "actions": [
             {
               "type": {
-                "value": "PrimitiveDrawing::Rectangle"
+                "value": "SetXY"
               },
               "parameters": [
                 "shpp_flashlight",
-                "obj_player.CenterX()",
-                "obj_player.CenterY() - 60",
-                "obj_player.CenterX()  + 60",
-                "obj_player.CenterY() "
+                "=",
+                "obj_player.PointX(\"flash_start\")",
+                "=",
+                "obj_player.PointY(\"flash_start\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::BeginFillPath"
+              },
+              "parameters": [
+                "shpp_flashlight",
+                "shpp_flashlight.X()",
+                "shpp_flashlight.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::PathLineTo"
+              },
+              "parameters": [
+                "shpp_flashlight",
+                "shpp_flashlight.X() + 360",
+                "shpp_flashlight.Y() - 60"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "shpp_flashlight",
+                "=",
+                "shpp_flashlight.X() + 360",
+                "=",
+                "shpp_flashlight.Y() - 60"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::PathLineTo"
+              },
+              "parameters": [
+                "shpp_flashlight",
+                "shpp_flashlight.X()",
+                "shpp_flashlight.Y() + 120"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::closePath"
+              },
+              "parameters": [
+                "shpp_flashlight"
               ]
             }
           ]
@@ -3763,7 +4116,6 @@
       ],
       "effects": [
         {
-          "disabled": true,
           "effectType": "KawaseBlur",
           "folded": true,
           "name": "blue",
@@ -3778,7 +4130,6 @@
           "booleanParameters": {}
         },
         {
-          "disabled": true,
           "effectType": "Noise",
           "folded": true,
           "name": "noise",
@@ -3789,7 +4140,6 @@
           "booleanParameters": {}
         },
         {
-          "disabled": true,
           "effectType": "ZoomBlur",
           "folded": true,
           "name": "zoomblur",
@@ -3805,6 +4155,7 @@
         },
         {
           "effectType": "Pixelate",
+          "folded": true,
           "name": "pixelate",
           "doubleParameters": {
             "size": 1
