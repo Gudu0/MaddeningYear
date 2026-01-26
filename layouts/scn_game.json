@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.4,
     "snap": true,
-    "zoomFactor": 0.3645833333333419,
+    "zoomFactor": 0.19415059112741273,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -57,12 +57,18 @@
       "name": "obj_player",
       "persistentUuid": "cfb91113-844e-4e7f-9ebd-b34eebc9cd1e",
       "width": 128,
-      "x": 7136,
+      "x": 7072,
       "y": -352,
       "zOrder": 9999,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "floor",
+          "type": "number",
+          "value": 1
+        }
+      ]
     },
     {
       "angle": 0,
@@ -101,7 +107,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1056,
+      "height": 1088,
       "keepRatio": true,
       "layer": "",
       "name": "obj_wall",
@@ -334,14 +340,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1024,
+      "height": 1088,
       "keepRatio": true,
       "layer": "",
       "name": "obj_wall",
       "persistentUuid": "8a38c159-84c6-475f-a6c0-6e1f9d0e8ac0",
       "width": 32,
       "x": 5728,
-      "y": 32,
+      "y": 0,
       "zOrder": -996,
       "numberProperties": [],
       "stringProperties": [],
@@ -368,7 +374,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1056,
+      "height": 1088,
       "keepRatio": true,
       "layer": "",
       "name": "obj_wall",
@@ -704,7 +710,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1056,
+      "height": 1088,
       "keepRatio": true,
       "layer": "",
       "name": "obj_wall",
@@ -807,7 +813,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1056,
+      "height": 1088,
       "keepRatio": true,
       "layer": "",
       "name": "obj_wall",
@@ -3115,6 +3121,113 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "camera boundries",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "obj_player",
+                "floor",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "CameraBoundsPerFloor.floor0.xLeft",
+                "CameraBoundsPerFloor.floor0.yTop",
+                "CameraBoundsPerFloor.floor0.xRight",
+                "CameraBoundsPerFloor.floor0.yBottom",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "obj_player",
+                "floor",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "CameraBoundsPerFloor.floor1.xLeft",
+                "CameraBoundsPerFloor.floor1.yTop",
+                "CameraBoundsPerFloor.floor1.xRight",
+                "CameraBoundsPerFloor.floor1.yBottom",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "obj_player",
+                "floor",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "CameraBoundsPerFloor.floor2.xLeft",
+                "CameraBoundsPerFloor.floor2.yTop",
+                "CameraBoundsPerFloor.floor2.xRight",
+                "CameraBoundsPerFloor.floor2.yBottom",
+                "",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -3124,6 +3237,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Stair Interaction",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3141,6 +3255,7 @@
           "comment": "Interaction code. makes a \"interact\" button appear."
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3267,6 +3382,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "stair \"anim\"",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3381,7 +3497,7 @@
                   "parameters": [
                     "animTimeStair",
                     "<",
-                    "100"
+                    "70"
                   ]
                 }
               ],
@@ -3440,7 +3556,7 @@
                   "parameters": [
                     "animTimeStair",
                     ">=",
-                    "100"
+                    "70"
                   ]
                 }
               ],
@@ -3474,6 +3590,28 @@
                     "",
                     "\"pixelate\"",
                     "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "pixelation",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetLayerEffectParameter"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"pixelate\"",
+                    "\"size\"",
+                    "pixelation"
                   ]
                 }
               ],

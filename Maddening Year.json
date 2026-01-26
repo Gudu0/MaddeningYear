@@ -351,6 +351,93 @@
       ]
     },
     {
+      "name": "CameraBoundsPerFloor",
+      "type": "structure",
+      "children": [
+        {
+          "folded": true,
+          "name": "floor0",
+          "type": "structure",
+          "children": [
+            {
+              "name": "xLeft",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "xRight",
+              "type": "number",
+              "value": 5760
+            },
+            {
+              "name": "yBottom",
+              "type": "number",
+              "value": 1088
+            },
+            {
+              "name": "yTop",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "floor1",
+          "type": "structure",
+          "children": [
+            {
+              "name": "xLeft",
+              "type": "number",
+              "value": 3840
+            },
+            {
+              "name": "xRight",
+              "type": "number",
+              "value": 7680
+            },
+            {
+              "name": "yBottom",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "yTop",
+              "type": "number",
+              "value": -1088
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "floor2",
+          "type": "structure",
+          "children": [
+            {
+              "name": "xLeft",
+              "type": "number",
+              "value": 5760
+            },
+            {
+              "name": "xRight",
+              "type": "number",
+              "value": 7680
+            },
+            {
+              "name": "yBottom",
+              "type": "number",
+              "value": -1088
+            },
+            {
+              "name": "yTop",
+              "type": "number",
+              "value": -2176
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "batt_charge",
       "type": "number",
       "value": 150
