@@ -309,6 +309,62 @@
         "name": "assets\\Player\\right4.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "D O O R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "D O O R.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../Downloads/D O O R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Downloads\\D O O R.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/stair_down2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "stair_down2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "monster (I tried).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "monster (I tried).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/monster.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "monster",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/monster2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/monster2.png\"}",
+        "name": "monster2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/monster3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "monster3",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -351,6 +407,7 @@
       ]
     },
     {
+      "folded": true,
       "name": "CameraBoundsPerFloor",
       "type": "structure",
       "children": [
@@ -438,6 +495,95 @@
       ]
     },
     {
+      "name": "MonsterPos",
+      "type": "array",
+      "children": [
+        {
+          "folded": true,
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 6880
+            },
+            {
+              "type": "number",
+              "value": -1760
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 4896
+            },
+            {
+              "type": "number",
+              "value": -672
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 7200
+            },
+            {
+              "type": "number",
+              "value": -672
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 5042
+            },
+            {
+              "type": "number",
+              "value": 416
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 3488
+            },
+            {
+              "type": "number",
+              "value": 416
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 1152
+            },
+            {
+              "type": "number",
+              "value": 416
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "batt_charge",
       "type": "number",
       "value": 150
@@ -452,6 +598,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/scn_game"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scn_win"
     }
   ],
   "externalEvents": [],

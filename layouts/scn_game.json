@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.4,
     "snap": true,
-    "zoomFactor": 0.19415059112741273,
+    "zoomFactor": 0.26167741169922276,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -44,6 +44,16 @@
       "name": "inStair",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "child",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "child_value",
+      "type": "array",
+      "children": []
     }
   ],
   "instances": [
@@ -57,8 +67,8 @@
       "name": "obj_player",
       "persistentUuid": "cfb91113-844e-4e7f-9ebd-b34eebc9cd1e",
       "width": 128,
-      "x": 7072,
-      "y": -352,
+      "x": 192,
+      "y": 736,
       "zOrder": 9999,
       "numberProperties": [],
       "stringProperties": [],
@@ -66,7 +76,7 @@
         {
           "name": "floor",
           "type": "number",
-          "value": 1
+          "value": 0
         }
       ]
     },
@@ -74,23 +84,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 32,
-      "layer": "",
-      "name": "obj_wall",
-      "persistentUuid": "da4c1cd5-445c-4f51-8b5a-08ce34b76b67",
-      "width": 1920,
-      "x": 0,
-      "y": 1056,
-      "zOrder": -996,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 416,
+      "height": 320,
       "keepRatio": true,
       "layer": "",
       "name": "obj_wall",
@@ -141,23 +135,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obj_wall",
-      "persistentUuid": "fdf95a0a-8b48-48d0-b57a-14acee4e2aa8",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": -996,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 192,
       "keepRatio": true,
       "layer": "",
@@ -181,24 +158,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obj_wall",
-      "persistentUuid": "27d1bedc-9189-4f92-935d-a2b0bd3359ca",
-      "width": 1920,
-      "x": 1920,
-      "y": 1056,
-      "zOrder": -996,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 416,
+      "height": 352,
       "keepRatio": true,
       "layer": "",
       "name": "obj_wall",
@@ -215,29 +175,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 416,
+      "height": 320,
       "keepRatio": true,
       "layer": "",
       "name": "obj_wall",
       "persistentUuid": "c7064370-fa8d-4e3c-8e59-2af1a04449a1",
       "width": 32,
-      "x": 1920,
-      "y": 0,
-      "zOrder": -996,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obj_wall",
-      "persistentUuid": "ab8cdd78-5bf0-4a0d-9587-105891f504b2",
-      "width": 1920,
       "x": 1920,
       "y": 0,
       "zOrder": -996,
@@ -266,46 +209,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obj_wall",
-      "persistentUuid": "8aa2d6f6-5ab0-4646-9ec5-fe27ede9ccea",
-      "width": 1920,
-      "x": 3840,
-      "y": 1056,
-      "zOrder": -996,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 416,
+      "height": 352,
       "keepRatio": true,
       "layer": "",
       "name": "obj_wall",
       "persistentUuid": "d7ba9eff-11ab-4df9-beca-eee307ba8aea",
       "width": 32,
-      "x": 3840,
-      "y": 0,
-      "zOrder": -996,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obj_wall",
-      "persistentUuid": "04aac5bf-2158-4d7a-b041-0e2629c64c5b",
-      "width": 1920,
       "x": 3840,
       "y": 0,
       "zOrder": -996,
@@ -357,46 +266,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obj_wall",
-      "persistentUuid": "bc9a9a3f-d60d-4140-be65-c345e50155f2",
-      "width": 1920,
-      "x": 3840,
-      "y": -32,
-      "zOrder": -996,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 1088,
       "keepRatio": true,
       "layer": "",
       "name": "obj_wall",
       "persistentUuid": "f815ffea-b410-464e-9ed2-b0e2e9d032ac",
       "width": 32,
-      "x": 3840,
-      "y": -1088,
-      "zOrder": -996,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obj_wall",
-      "persistentUuid": "79e23d06-9237-4b7b-85c5-87ccfdec9b3c",
-      "width": 1920,
       "x": 3840,
       "y": -1088,
       "zOrder": -996,
@@ -465,14 +340,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 736,
-      "keepRatio": true,
+      "height": 512,
       "layer": "",
       "name": "obj_stair",
       "persistentUuid": "4c9b2984-d230-4b76-9730-5af64b64285e",
-      "width": 544,
-      "x": 4160,
-      "y": 320,
+      "width": 384,
+      "x": 4320,
+      "y": 544,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -505,14 +379,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 736,
+      "height": 512,
       "keepRatio": true,
       "layer": "",
       "name": "obj_stair",
       "persistentUuid": "5e1b7d47-d416-427d-b361-e0b407dff2f6",
-      "width": 544,
-      "x": 4160,
-      "y": -768,
+      "width": 384,
+      "x": 4320,
+      "y": -544,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -551,24 +425,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obj_wall",
-      "persistentUuid": "5c3a1e25-8c47-4d36-88fc-f78a0a7ba444",
-      "width": 1920,
-      "x": 5760,
-      "y": -32,
-      "zOrder": -996,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 416,
+      "height": 352,
       "keepRatio": true,
       "layer": "",
       "name": "obj_wall",
@@ -585,29 +442,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 416,
+      "height": 352,
       "keepRatio": true,
       "layer": "",
       "name": "obj_wall",
       "persistentUuid": "a6b61efb-86e5-42a7-bc3a-9cf7a5250b5c",
       "width": 32,
-      "x": 5760,
-      "y": -1088,
-      "zOrder": -996,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obj_wall",
-      "persistentUuid": "547ec9f1-5b8f-4a28-9a92-8b4e03549ab7",
-      "width": 1920,
       "x": 5760,
       "y": -1088,
       "zOrder": -996,
@@ -642,14 +482,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 736,
-      "keepRatio": true,
+      "height": 512,
       "layer": "",
       "name": "obj_stair",
       "persistentUuid": "00b53beb-79a6-4914-ad85-a6a582b13e4e",
-      "width": 544,
-      "x": 6016,
-      "y": -768,
+      "width": 384,
+      "x": 6176,
+      "y": -544,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -693,46 +532,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obj_wall",
-      "persistentUuid": "15228325-1782-480e-a701-127c22afd0f2",
-      "width": 1920,
-      "x": 5760,
-      "y": -1120,
-      "zOrder": -996,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 1088,
       "keepRatio": true,
       "layer": "",
       "name": "obj_wall",
       "persistentUuid": "7d59e531-6360-4946-afe7-21aa7a9290d0",
       "width": 32,
-      "x": 5760,
-      "y": -2176,
-      "zOrder": -996,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obj_wall",
-      "persistentUuid": "1a688a07-d4d5-4300-aee3-79f7dd997ef0",
-      "width": 1920,
       "x": 5760,
       "y": -2176,
       "zOrder": -996,
@@ -766,15 +571,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 736,
-      "keepRatio": true,
+      "depth": 0.6956521739130431,
+      "height": 512,
       "layer": "",
       "name": "obj_stair",
       "persistentUuid": "c0544836-75ad-4d33-859f-495149772134",
-      "width": 544,
-      "x": 6016,
-      "y": -1856,
+      "width": 384,
+      "x": 6176,
+      "y": -1632,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -853,8 +657,8 @@
       "name": "bbtxt_floor",
       "persistentUuid": "bc5fd006-1afb-41ac-a798-8765d40cbea5",
       "width": 512,
-      "x": 4224,
-      "y": 352,
+      "x": 4352,
+      "y": 576,
       "zOrder": 1000,
       "numberProperties": [],
       "stringProperties": [],
@@ -876,8 +680,8 @@
       "name": "bbtxt_floor",
       "persistentUuid": "084b7ae9-f103-42d1-88f5-f044852e7d9f",
       "width": 448,
-      "x": 4224,
-      "y": -736,
+      "x": 4352,
+      "y": -512,
       "zOrder": 1000,
       "numberProperties": [],
       "stringProperties": [],
@@ -899,8 +703,8 @@
       "name": "bbtxt_floor",
       "persistentUuid": "fda1a568-6e5e-49bd-9f63-e107da1a555b",
       "width": 544,
-      "x": 6080,
-      "y": -736,
+      "x": 6240,
+      "y": -512,
       "zOrder": 1000,
       "numberProperties": [],
       "stringProperties": [],
@@ -922,8 +726,8 @@
       "name": "bbtxt_floor",
       "persistentUuid": "0f12c37c-ab4a-4fa7-9644-7b0514831a21",
       "width": 607,
-      "x": 6081,
-      "y": -1824,
+      "x": 6208,
+      "y": -1600,
       "zOrder": 1000,
       "numberProperties": [],
       "stringProperties": [],
@@ -948,7 +752,7 @@
         {
           "name": "amount",
           "type": "number",
-          "value": 30
+          "value": 3
         },
         {
           "name": "item",
@@ -1068,9 +872,234 @@
       "name": "shpp_flashlight",
       "persistentUuid": "828766be-d7a2-4b92-8eee-f61745a60221",
       "width": 32,
-      "x": 6112,
-      "y": 288,
+      "x": 6752,
+      "y": 448,
       "zOrder": 100000,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 4,
+      "height": 640,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_monster",
+      "persistentUuid": "87502b15-8af2-4c6e-b111-b36a79446edf",
+      "width": 448,
+      "x": 6848,
+      "y": -1760,
+      "zOrder": 1316134915,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_floor",
+      "persistentUuid": "d1925557-a175-4ed7-a2c6-d7ee073f13ce",
+      "width": 5728,
+      "x": 0,
+      "y": 1056,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_floor",
+      "persistentUuid": "51dbf0c5-7f80-40f3-bb05-44e17f25f905",
+      "width": 5760,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_floor",
+      "persistentUuid": "cef56aa3-d721-48f6-a2d1-ebac9728041e",
+      "width": 1920,
+      "x": 5760,
+      "y": -32,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_floor",
+      "persistentUuid": "51deab4d-d463-41c8-81b7-5e0d5fa755a6",
+      "width": 1920,
+      "x": 3840,
+      "y": -32,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_floor",
+      "persistentUuid": "54d95f37-c040-4885-81ee-2c6096a33eda",
+      "width": 1920,
+      "x": 3840,
+      "y": -1088,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_floor",
+      "persistentUuid": "e85d546f-2bc0-48f4-aaad-089a84e164c9",
+      "width": 1920,
+      "x": 5760,
+      "y": -1088,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_floor",
+      "persistentUuid": "1121405b-31e0-433d-ae3c-1d47e1736803",
+      "width": 1920,
+      "x": 5760,
+      "y": -1120,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_floor",
+      "persistentUuid": "a77a2544-3259-4f17-8342-758eb16958c3",
+      "width": 1920,
+      "x": 5760,
+      "y": -2176,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 140,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_drawer",
+      "persistentUuid": "73bb5c0b-924e-4312-a073-bba814510dcd",
+      "width": 147,
+      "x": 1389,
+      "y": 916,
+      "zOrder": 1001,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "amount",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "name": "item",
+          "type": "string",
+          "value": "battery"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_drawer",
+      "persistentUuid": "1b74a766-a0a0-46cc-a9b5-182253c715eb",
+      "width": 192,
+      "x": 5856,
+      "y": -1312,
+      "zOrder": 1001,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "amount",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "item",
+          "type": "string",
+          "value": "battery"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewText",
+      "persistentUuid": "b1fbcdf4-0202-43d6-a0a2-402f428f2b4c",
+      "width": 0,
+      "x": 384,
+      "y": 384,
+      "zOrder": 1316134919,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1554,49 +1583,6 @@
       "behaviors": []
     },
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "obj_notes",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "NOTES:\nThe background should probably always be a multiple of 1920, to make it a full screen width. \nWalls should be on the interior of the 1920 rectangle.\nTo add new static backgrounds, add a new animation to the \"spr_decor\" object, - \nand then when placing it into the scene, make its instance variable be the name of the animation. Use the clocks as reference.\nPlay the game in fullscreen mode. (f11)\nPress f4 to close the game immediately.\nAdded some visual effects to the camera.\nStairs are a bit more complicated, You need 4 objects, 2 stairs and 2 interact buttons. \n(technically you don't need the buttons, but I'm going for consitency) \nYou also don't technically need 2 stairs, but then its only one direction. \nTo make stair pairs, if going to a new floor that isn't on the level of any other, add the y-coords for the player to be at to the global structure. \nyou can get the coords by just moving the player in the editor and checking the properties panel.\nNext, set a door and button id to be the same, but the the same as any other pair. Also make sure to set the animation for the staircase. \n",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 50,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "NOTES:\nThe background should probably always be a multiple of 1920, to make it a full screen width. \nWalls should be on the interior of the 1920 rectangle.\nTo add new static backgrounds, add a new animation to the \"spr_decor\" object, - \nand then when placing it into the scene, make its instance variable be the name of the animation. Use the clocks as reference.\nPlay the game in fullscreen mode. (f11)\nPress f4 to close the game immediately.\nAdded some visual effects to the camera.\nStairs are a bit more complicated, You need 4 objects, 2 stairs and 2 interact buttons. \n(technically you don't need the buttons, but I'm going for consitency) \nYou also don't technically need 2 stairs, but then its only one direction. \nTo make stair pairs, if going to a new floor that isn't on the level of any other, add the y-coords for the player to be at to the global structure. \nyou can get the coords by just moving the player in the editor and checking the properties panel.\nNext, set a door and button id to be the same, but the the same as any other pair. Also make sure to set the animation for the staircase. \n",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 50,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "spr_decor",
@@ -1940,7 +1926,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "stair_up",
+                  "image": "D O O R.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1960,16 +1946,16 @@
                         "y": 0
                       },
                       {
-                        "x": 64,
+                        "x": 88,
                         "y": 0
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 88,
+                        "y": 115
                       },
                       {
                         "x": 0,
-                        "y": 64
+                        "y": 115
                       }
                     ]
                   ]
@@ -1989,7 +1975,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "stair_down",
+                  "image": "stair_down2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2009,16 +1995,16 @@
                         "y": 0
                       },
                       {
-                        "x": 64,
+                        "x": 88,
                         "y": 0
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 88,
+                        "y": 115
                       },
                       {
                         "x": 0,
-                        "y": 64
+                        "y": 115
                       }
                     ]
                   ]
@@ -2438,6 +2424,181 @@
         "g": 0,
         "b": 0
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "obj_monster",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "flipped",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "health",
+          "type": "number",
+          "value": 3
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "monster",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "monster3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 81,
+                        "y": 0
+                      },
+                      {
+                        "x": 81,
+                        "y": 113
+                      },
+                      {
+                        "x": 0,
+                        "y": 113
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "obj_floor",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "wall",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": true,
+      "name": "NewText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Kill the monster!\nWASD - walk\nF - flashlight (uses batteries)",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Kill the monster!\nWASD - walk\nF - flashlight (uses batteries)",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2468,15 +2629,15 @@
           },
           {
             "objectName": "obj_wall"
+          },
+          {
+            "objectName": "obj_floor"
           }
         ]
       },
       {
         "folderName": "Texts",
         "children": [
-          {
-            "objectName": "obj_notes"
-          },
           {
             "objectName": "bbtxt_floor"
           }
@@ -2499,6 +2660,12 @@
       },
       {
         "objectName": "shpp_flashlight"
+      },
+      {
+        "objectName": "obj_monster"
+      },
+      {
+        "objectName": "NewText"
       }
     ]
   },
@@ -2625,6 +2792,17 @@
             "shpp_flashlight",
             "=",
             "160"
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceXY"
+          },
+          "parameters": [
+            "obj_monster",
+            "-240",
+            "0",
+            "1"
           ]
         }
       ]
@@ -2784,7 +2962,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3127,107 +3304,109 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "camera boundries",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "floor",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ClampCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "CameraBoundsPerFloor.floor0.xLeft",
+                    "CameraBoundsPerFloor.floor0.yTop",
+                    "CameraBoundsPerFloor.floor0.xRight",
+                    "CameraBoundsPerFloor.floor0.yBottom",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "floor",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ClampCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "CameraBoundsPerFloor.floor1.xLeft",
+                    "CameraBoundsPerFloor.floor1.yTop",
+                    "CameraBoundsPerFloor.floor1.xRight",
+                    "CameraBoundsPerFloor.floor1.yBottom",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "floor",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ClampCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "CameraBoundsPerFloor.floor2.xLeft",
+                    "CameraBoundsPerFloor.floor2.yTop",
+                    "CameraBoundsPerFloor.floor2.xRight",
+                    "CameraBoundsPerFloor.floor2.yBottom",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "obj_player",
-                "floor",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ClampCamera"
-              },
-              "parameters": [
-                "",
-                "CameraBoundsPerFloor.floor0.xLeft",
-                "CameraBoundsPerFloor.floor0.yTop",
-                "CameraBoundsPerFloor.floor0.xRight",
-                "CameraBoundsPerFloor.floor0.yBottom",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "obj_player",
-                "floor",
-                "=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ClampCamera"
-              },
-              "parameters": [
-                "",
-                "CameraBoundsPerFloor.floor1.xLeft",
-                "CameraBoundsPerFloor.floor1.yTop",
-                "CameraBoundsPerFloor.floor1.xRight",
-                "CameraBoundsPerFloor.floor1.yBottom",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "obj_player",
-                "floor",
-                "=",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ClampCamera"
-              },
-              "parameters": [
-                "",
-                "CameraBoundsPerFloor.floor2.xLeft",
-                "CameraBoundsPerFloor.floor2.yTop",
-                "CameraBoundsPerFloor.floor2.xRight",
-                "CameraBoundsPerFloor.floor2.yBottom",
-                "",
-                ""
-              ]
-            }
-          ]
         }
       ],
       "parameters": []
@@ -3985,54 +4164,55 @@
       "parameters": []
     },
     {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
       "folded": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "name": "Flashlight",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "value": "KeyFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"f\""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "spr_cursor",
+                "=",
+                "CursorX()",
+                "=",
+                "CursorY()"
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "Inventory::Count"
-          },
-          "parameters": [
-            "",
-            "\"Player\"",
-            "\"battery\"",
-            ">",
-            "0"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "batt_charge",
-            "-",
-            "1"
-          ]
-        }
-      ],
-      "events": [
-        {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "KeyFromTextPressed"
               },
               "parameters": [
-                "batt_charge",
-                "<=",
+                "",
+                "\"f\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Inventory::Count"
+              },
+              "parameters": [
+                "",
+                "\"Player\"",
+                "\"battery\"",
+                ">",
                 "0"
               ]
             }
@@ -4040,184 +4220,721 @@
           "actions": [
             {
               "type": {
-                "value": "Inventory::Remove"
-              },
-              "parameters": [
-                "",
-                "\"Player\"",
-                "\"battery\""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
                 "batt_charge",
-                "=",
-                "150"
+                "-",
+                "1"
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "batt_charge",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Inventory::Remove"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Player\"",
+                    "\"battery\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "batt_charge",
+                    "=",
+                    "150"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "py",
+                    "=",
+                    "obj_player.PointY(\"flash_start\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "px",
+                    "=",
+                    "obj_player.PointX(\"flash_start\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "mx",
+                    "=",
+                    "CursorX()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "my",
+                    "=",
+                    "CursorY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "ang",
+                    "=",
+                    "AngleBetweenPositions(px, py, mx, my)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "x1",
+                    "=",
+                    "px + XFromAngleAndDistance(ang - spread, len)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "y1",
+                    "=",
+                    "py + YFromAngleAndDistance(ang - spread, len)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "x2",
+                    "=",
+                    "px + XFromAngleAndDistance(ang + spread, len)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "y2",
+                    "=",
+                    "py + YFromAngleAndDistance(ang + spread, len)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::BeginFillPath"
+                  },
+                  "parameters": [
+                    "shpp_flashlight",
+                    "px",
+                    "py"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::PathLineTo"
+                  },
+                  "parameters": [
+                    "shpp_flashlight",
+                    "x1",
+                    "y1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::PathLineTo"
+                  },
+                  "parameters": [
+                    "shpp_flashlight",
+                    "x2",
+                    "y2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::closePath"
+                  },
+                  "parameters": [
+                    "shpp_flashlight"
+                  ]
+                }
+              ],
+              "variables": [
+                {
+                  "name": "px",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "py",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "mx",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "my",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "ang",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "len",
+                  "type": "number",
+                  "value": 300
+                },
+                {
+                  "name": "x1",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "y1",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "x2",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "y2",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "spread",
+                  "type": "number",
+                  "value": 12
+                }
+              ]
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "obj_player",
+                        "Animation",
+                        "=",
+                        "\"left\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetXY"
+                      },
+                      "parameters": [
+                        "shpp_flashlight",
+                        "=",
+                        "obj_player.PointX(\"flash_start\")",
+                        "=",
+                        "obj_player.PointY(\"flash_start\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::BeginFillPath"
+                      },
+                      "parameters": [
+                        "shpp_flashlight",
+                        "shpp_flashlight.X()",
+                        "shpp_flashlight.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::PathLineTo"
+                      },
+                      "parameters": [
+                        "shpp_flashlight",
+                        "shpp_flashlight.X() - 360",
+                        "shpp_flashlight.Y() - 60"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetXY"
+                      },
+                      "parameters": [
+                        "shpp_flashlight",
+                        "=",
+                        "shpp_flashlight.X() - 360",
+                        "=",
+                        "shpp_flashlight.Y() - 60"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::PathLineTo"
+                      },
+                      "parameters": [
+                        "shpp_flashlight",
+                        "shpp_flashlight.X()",
+                        "shpp_flashlight.Y() + 120"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::closePath"
+                      },
+                      "parameters": [
+                        "shpp_flashlight"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "obj_player",
+                        "Animation",
+                        "=",
+                        "\"right\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetXY"
+                      },
+                      "parameters": [
+                        "shpp_flashlight",
+                        "=",
+                        "obj_player.PointX(\"flash_start\")",
+                        "=",
+                        "obj_player.PointY(\"flash_start\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::BeginFillPath"
+                      },
+                      "parameters": [
+                        "shpp_flashlight",
+                        "shpp_flashlight.X()",
+                        "shpp_flashlight.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::PathLineTo"
+                      },
+                      "parameters": [
+                        "shpp_flashlight",
+                        "shpp_flashlight.X() + 360",
+                        "shpp_flashlight.Y() - 60"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetXY"
+                      },
+                      "parameters": [
+                        "shpp_flashlight",
+                        "=",
+                        "shpp_flashlight.X() + 360",
+                        "=",
+                        "shpp_flashlight.Y() - 60"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::PathLineTo"
+                      },
+                      "parameters": [
+                        "shpp_flashlight",
+                        "shpp_flashlight.X()",
+                        "shpp_flashlight.Y() + 120"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::closePath"
+                      },
+                      "parameters": [
+                        "shpp_flashlight"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
           ]
-        },
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Monster",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                "value": "CollisionNP"
               },
               "parameters": [
-                "obj_player",
-                "Animation",
-                "=",
-                "\"left\""
+                "shpp_flashlight",
+                "obj_monster",
+                "",
+                "",
+                ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetXY"
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
-                "shpp_flashlight",
-                "=",
-                "obj_player.PointX(\"flash_start\")",
-                "=",
-                "obj_player.PointY(\"flash_start\")"
+                "obj_monster",
+                "Opacity",
+                "-",
+                "85"
               ]
             },
             {
               "type": {
-                "value": "PrimitiveDrawing::BeginFillPath"
+                "value": "SetNumberObjectVariable"
               },
               "parameters": [
-                "shpp_flashlight",
-                "shpp_flashlight.X()",
-                "shpp_flashlight.Y()"
+                "obj_monster",
+                "health",
+                "-",
+                "1"
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "PrimitiveDrawing::PathLineTo"
-              },
-              "parameters": [
-                "shpp_flashlight",
-                "shpp_flashlight.X() - 360",
-                "shpp_flashlight.Y() - 60"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetXY"
-              },
-              "parameters": [
-                "shpp_flashlight",
-                "=",
-                "shpp_flashlight.X() - 360",
-                "=",
-                "shpp_flashlight.Y() - 60"
-              ]
-            },
-            {
-              "type": {
-                "value": "PrimitiveDrawing::PathLineTo"
-              },
-              "parameters": [
-                "shpp_flashlight",
-                "shpp_flashlight.X()",
-                "shpp_flashlight.Y() + 120"
-              ]
-            },
-            {
-              "type": {
-                "value": "PrimitiveDrawing::closePath"
-              },
-              "parameters": [
-                "shpp_flashlight"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "pos_index",
+                    "=",
+                    "RandomInRange(0, 5)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                  "iterableVariableName": "MonsterPos",
+                  "valueIteratorVariableName": "child_value",
+                  "keyIteratorVariableName": "child",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "child",
+                        "=",
+                        "pos_index"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetXY"
+                      },
+                      "parameters": [
+                        "obj_monster",
+                        "=",
+                        "child_value[0]",
+                        "=",
+                        "child_value[1]"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "NewText",
+                        "Text",
+                        "=",
+                        "\"x: \" + child_value[0] + \" y: \" + child_value[1]"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "variables": [
+                {
+                  "name": "pos_index",
+                  "type": "number",
+                  "value": 0
+                }
               ]
             }
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                "value": "CollisionNP"
               },
               "parameters": [
-                "obj_player",
-                "Animation",
-                "=",
-                "\"right\""
+                "obj_monster",
+                "obj_wall",
+                "",
+                "",
+                ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetXY"
+                "value": "ClearForces"
               },
               "parameters": [
-                "shpp_flashlight",
-                "=",
-                "obj_player.PointX(\"flash_start\")",
-                "=",
-                "obj_player.PointY(\"flash_start\")"
-              ]
-            },
-            {
-              "type": {
-                "value": "PrimitiveDrawing::BeginFillPath"
-              },
-              "parameters": [
-                "shpp_flashlight",
-                "shpp_flashlight.X()",
-                "shpp_flashlight.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "PrimitiveDrawing::PathLineTo"
-              },
-              "parameters": [
-                "shpp_flashlight",
-                "shpp_flashlight.X() + 360",
-                "shpp_flashlight.Y() - 60"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetXY"
-              },
-              "parameters": [
-                "shpp_flashlight",
-                "=",
-                "shpp_flashlight.X() + 360",
-                "=",
-                "shpp_flashlight.Y() - 60"
-              ]
-            },
-            {
-              "type": {
-                "value": "PrimitiveDrawing::PathLineTo"
-              },
-              "parameters": [
-                "shpp_flashlight",
-                "shpp_flashlight.X()",
-                "shpp_flashlight.Y() + 120"
-              ]
-            },
-            {
-              "type": {
-                "value": "PrimitiveDrawing::closePath"
-              },
-              "parameters": [
-                "shpp_flashlight"
+                "obj_monster"
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "obj_monster",
+                    "flipped",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "obj_monster",
+                    "Flippable",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "obj_monster",
+                    "240",
+                    "0",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "obj_monster",
+                    "flipped",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "obj_monster",
+                    "Flippable",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "obj_monster",
+                    "-240",
+                    "0",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "obj_monster",
+                    "flipped",
+                    "Toggle",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "obj_monster",
+            "health",
+            "<=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"scn_win\"",
+            "yes"
           ]
         }
       ]
